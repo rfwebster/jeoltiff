@@ -1,6 +1,4 @@
-A small script for converting JEOL TIFF files (from JEOL "Analysis Center") from a chosen directory with data embedded in xml format  in the tiff tags into a tiff with the correct meta data to have scale included in Gatan Digital Micrograph and ImageJ...
-
-Warning: May invalidate Institution/JEOL legal agreements.
+A small script for converting JEOL TIFF files (from JEOL "Analysis Center") from a chosen directory with data embedded in xml format  in the tiff tags into a tiff with the correct meta data to have scale included in Gatan Digital Micrograph and ImageJ.
 
 <b>N.B.</b>
  - 1. can not find where unit for length per pixel is in the JEOL xml data -
@@ -17,6 +15,6 @@ Requirements (install using your favourite python package manager):
 
 
 
-Install (windows):
+Install (windows, not sure if this still works):
  $ pip install tifffile untangle cx_freeze pyqt5
  $ python setup.py build
